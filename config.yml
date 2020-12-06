@@ -1,0 +1,19 @@
+title: MindBlowing Python projects
+description: >-
+  Hey guys , In this course i will  show u some of my best python projects  that
+  u can use to impress your interviewer , make your friends feel jealous and
+  also make girlfriends
+template:
+  repo: mindblowing-python-projects-template
+  name: mindblowing-python-projects
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
